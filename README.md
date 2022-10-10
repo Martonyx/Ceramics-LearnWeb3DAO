@@ -1,10 +1,11 @@
-# An ICO web-App built in my course at learnweb3DAO
+Ceramic is a decentralized data network, that allows for building composable Web3 applications. Since Ceramic decentralizes application databases, application developers can reuse data across applications and make them automatically interoperable.
 
-## The ICO is for CyproDevs NFT holders who had previously minted their NFT's
+Ceramic is building:
 
-- the ICO had a total supply of 10000 CD at the price of 0.001 for each token.
-
-- the contract checks if the address has the required NFT and then if yes, mints free ICO tokens to the address depending on the number of nfts the address hold.
-  Although the address will have to pay the gas fees needed for the minting transaction.
-
-- addresses that doesnt hold the required nfts, will have to buy at the given price.
+A generalized data protocol
+where data can be modified only by the owner
+with high volume data processing
+with global data availability and consistency
+with support for fast querying
+with interoperable data across applications
+and community governance

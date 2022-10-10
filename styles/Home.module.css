@@ -1,62 +1,63 @@
 .main {
-  min-height: 90vh;
+  min-height: 100vh;
+}
+
+.navbar {
+  height: 10%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-family: "Courier New", Courier, monospace;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: orange;
 }
 
-.footer {
+.content {
+  height: 80%;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
   display: flex;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
-.image {
-  width: 70%;
-  height: 50%;
-  margin-left: 20%;
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.input {
-  width: 200px;
-  height: 100%;
-  padding: 1%;
-  margin-bottom: 2%;
-  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-  border-radius: 10px;
+.connection {
+  margin-top: 2%;
+}
+
+.mt2 {
+  margin-top: 2%;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .title {
-  font-size: 2rem;
-  margin: 2rem 0;
-}
-
-.description {
-  line-height: 1;
-  margin: 2rem 0;
-  font-size: 1.2rem;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .button {
-  border-radius: 4px;
-  background-color: blue;
-  border: none;
-  color: #ffffff;
-  font-size: 15px;
-  padding: 5px;
-  width: 100px;
+  background-color: azure;
+  padding: 0.5%;
+  border-radius: 10%;
+  border: 0px;
+  font-size: 16px;
   cursor: pointer;
-  margin-bottom: 2%;
 }
-@media (max-width: 1000px) {
-  .main {
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
+.button:hover {
+  background-color: beige;
 }
